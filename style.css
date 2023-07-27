@@ -163,6 +163,59 @@ main p {
   bottom: 0;
 }
 
+.social-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.social-box {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  display: flex;
+  width: 40%;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  height: 75px;
+  margin: 10px;
+  transition: var(--transition-speed);
+}
+
+.social-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.social-box img {
+  height: 75px;
+}
+
+.social-label {
+  background: var(--gradient);
+  color: var(--light-color);
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+}
+
+.social-description {
+  background: var(--dark-color);
+  color: var(--light-color);
+  position: absolute;
+  bottom: -150%;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  transition: var(--transition-speed);
+}
+
+.social-box:hover .social-description {
+  bottom: 0;
+}
+
 footer {
   background: var(--light-color);
   color: var(--primary-color);
