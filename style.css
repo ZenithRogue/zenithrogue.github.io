@@ -8,8 +8,7 @@
   --transition-speed: all 0.3s ease-in-out;
   --gradient: linear-gradient(to bottom right, var(--primary-color), var(--secondary-color));
   --dark-gradient: linear-gradient(to bottom right, #4a3a66, #2e3190);
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Inter", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
 }
 
 * {
