@@ -104,6 +104,21 @@ main p {
   white-space: pre-line;
 }
 
+.about {
+  display: flex;
+  vertical-align: middle;
+}
+
+.about-inner {
+  padding: 50px;
+  align-self: center;
+}
+
+.about-inner h2 {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
 .projects-container {
   display: flex;
   justify-content: space-evenly;
